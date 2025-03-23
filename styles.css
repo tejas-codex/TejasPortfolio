@@ -1,0 +1,28 @@
+/* Base Reset */
+:root {
+    /* Colors */
+    --color-background: #ffffff;
+    --color-text: #000000;
+    --color-text-secondary: #666666;
+    --color-accent: #0066FF;
+    --color-border: #E5E7EB;
+    
+    /* Typography */
+    --h1-size: clamp(2.5rem, 5vw, 4rem);
+    --h2-size: clamp(2rem, 4vw, 3rem);
+    --h3-size: clamp(1.5rem, 3vw, 2rem);
+    --body-size: clamp(1rem, 1.5vw, 1.125rem);
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+    
+    /* Animation */
+    --transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-speed: 0.3s;
+}
+
+/* Rest of the CSS content */
